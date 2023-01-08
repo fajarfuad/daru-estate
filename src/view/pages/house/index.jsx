@@ -7,7 +7,7 @@ import PageTitle from "../../../layout/components/content/page-title";
 export default function Page() {
   return (
     <Row gutter={[32, 32]}>
-      <PageTitle pageTitle="Marketing" />
+      <PageTitle pageTitle="House" />
     </Row>
   );
 }

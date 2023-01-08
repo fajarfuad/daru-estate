@@ -21,7 +21,7 @@ export default function PageTitle(props) {
             </Button>
           </Col>
         )}
-        <Col span={12}>
+        <Col span={24}>
           {pageTitle && <h2 className="daru-mb-8">{pageTitle}</h2>}
         </Col>
         <Col flex="auto" align="right">
