@@ -52,10 +52,10 @@ const pages = [
     navLink: "/payment",
   },
   {
-    id: "skema",
+    id: "scheme",
     title: "Skema",
     icon: <Wallet set="curved" className="remix-icon" />,
-    navLink: "/skema",
+    navLink: "/scheme",
   },
 ];
 
