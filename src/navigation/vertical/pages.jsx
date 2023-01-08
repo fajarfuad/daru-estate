@@ -1,20 +1,61 @@
-import { Home, CloseSquare, PaperPlus } from "react-iconly";
+import {
+  Category,
+  TwoUsers,
+  User,
+  Home,
+  Filter,
+  Wallet,
+  Ticket,
+} from "react-iconly";
 
 const pages = [
   {
-    header: "MAIN",
+    header: "UTAMA",
   },
   {
     id: "dashboard",
     title: "Dashboard",
-    icon: <Home set="curved" className="remix-icon" />,
+    icon: <Category set="curved" className="remix-icon" />,
     navLink: "/",
+  },
+  {
+    id: "house",
+    title: "House",
+    icon: <Home set="curved" className="remix-icon" />,
+    navLink: "/house",
+  },
+  {
+    id: "customer",
+    title: "Customer",
+    icon: <User set="curved" className="remix-icon" />,
+    navLink: "/customer",
   },
   {
     id: "marketing",
     title: "Marketing",
-    icon: <PaperPlus set="curved" className="remix-icon" />,
+    icon: <TwoUsers set="curved" className="remix-icon" />,
     navLink: "/marketing",
+  },
+  {
+    id: "modification",
+    title: "Modification",
+    icon: <Filter set="curved" className="remix-icon" />,
+    navLink: "/modification",
+  },
+  {
+    header: "TRANSAKSI",
+  },
+  {
+    id: "payment",
+    title: "Payment",
+    icon: <Ticket set="curved" className="remix-icon" />,
+    navLink: "/payment",
+  },
+  {
+    id: "skema",
+    title: "Skema",
+    icon: <Wallet set="curved" className="remix-icon" />,
+    navLink: "/skema",
   },
 ];
 

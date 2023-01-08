@@ -11,7 +11,9 @@ export default function Home() {
   }, []);
   return (
     <Row gutter={[32, 32]}>
-      <PageTitle pageTitle="Selamat Datang, Admin👋" />
+      <Col span={24}>
+        <PageTitle pageTitle="Selamat Datang, Admin👋" />
+      </Col>
 
       {/* <Col span={24}>
         <Row gutter={[32, 32]}>
